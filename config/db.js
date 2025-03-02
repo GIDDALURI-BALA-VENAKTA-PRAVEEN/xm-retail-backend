@@ -17,11 +17,11 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
-// Load environment variables from .env file
+
 dotenv.config();
 const password = encodeURIComponent(process.env.MONGO_PASSWORD.trim());
 
-// Connect to MongoDB Atlas
+
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(`mongodb+srv://gbvp910:${password}@xmretail.aowih.mongodb.net/AWS-Mern-App?retryWrites=true&w=majority&appName=xmretail`, {
