@@ -4,4 +4,4 @@ COPY package.json ./
 RUN npm install
 COPY . .
 EXPOSE 5000
-CMD ["npm","run","startvs"]
+CMD ["npm","run","start"]
