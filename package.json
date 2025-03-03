@@ -6,7 +6,7 @@
   "type": "module",
   
   "scripts": {
-     "start": "node app.js",
+     "start": "node index.js",
   "build": "echo \"No build step necessary for this project\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
