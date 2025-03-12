@@ -19,7 +19,7 @@ jobs:
         run: docker build -t parzival2808/xmretail .
       
       - name: Publish Image to Docker Hub
-        run: docker push parzival2808/xmretail:latest
+        run: docker push parzival2808/xmretail:latest  
 
   deploy:
     needs: build
